@@ -5,11 +5,11 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "e2e": "cypress open"
+        "e2e": "cypress open --config pageLoadTimeout=20000,requestTimeout=20000"
     },
     "author": "",
     "license": "ISC",
     "devDependencies": {
-       "cypress": "^3.3.1"
+        "cypress": "^3.3.1"
     }
 }
